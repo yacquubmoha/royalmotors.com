@@ -1,0 +1,328 @@
+*{
+margin: 0;
+/* padding: 0; */
+
+}
+body{
+   overflow-x: hidden;
+ /* background-color: brown; */
+}
+header{
+width: 100%;
+height: 70%;
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/pexels-david-mcbee-395537.jpg) ;
+background-attachment: fixed;
+background-position: bottom;
+background-size: cover;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.royal{
+width: 150px;
+height: 100px;
+}
+ul{
+ list-style: none;
+ margin-right: 1rem;
+ margin-top: 1rem;
+}
+li{
+    display: inline;
+}
+ul li{
+    padding: 3rem;
+font-size: 20px;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+ul li a:hover{
+    color: rgb(124, 14, 14);
+}
+ul li a:active{
+    color: rgb(124, 14, 14);
+    
+}
+form{
+    display: inline;
+  
+}
+.input1{
+    width: 250px;
+    height: 30px;
+    border-radius: 3rem;
+   background-color: rgb(24, 22, 22);
+}
+.royal{
+ color: rgba(red, 0, 0, alpha);
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    color: white;
+    padding: 7rem;
+}
+h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.input2{
+    width: 250px;
+    height: 30px;
+    border-radius: 3rem;
+    
+}
+.form2{
+    padding-top: 1rem;
+   
+}
+.container{
+    display: flex;
+}
+.bottom{
+    position: relative;
+    top: 50px;
+    right: -30px;
+    transform: translate(-170px, -50px);
+    display: flex;
+    justify-items: center;
+}
+.input2{
+    width: 300px;
+    height: 50px;
+}
+.yar{
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    border-radius: 3rem;
+  margin-top:2rem ;
+  margin-right: 10rem;
+}
+.subscribe{
+    background-color: rgb(131, 11, 11);
+    width: 140px;
+    height: 30px;
+    border-radius: 3rem;
+    margin-left: 8.5rem;
+    margin-top: 0.4rem;
+}
+.div3{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+}
+.car1{
+    width: 250px;
+    height: 250px;
+    border-radius: 10rem;
+    margin-left: 1rem;
+    position: absolute;
+    top:-8rem;
+    right: -0.5rem;
+}
+.part1{
+    width: 33.33%;
+    height: 100%;
+    margin-left: 20rem;
+}
+.part2{
+    width: 33.33%;
+    height: 100%;
+    margin-right: 20rem;
+}
+.part3{
+    width: 33.33%;
+    height: 100%;
+    margin-right: 30rem;
+    margin-bottom: 5rem;
+}
+.car2{
+    width: 200px;
+    height: 200px;
+    border-radius: 6rem;
+    /* margin-left: 180px; */
+   position: absolute;
+   top:-7rem;
+   right: 0.1rem;
+}
+.car3{
+    width: 210px;
+    height: 210px;
+    /* margin-right: 30rem; */
+    border-radius: 8rem;
+    top:-7rem;
+    right: 0.1rem;
+    position: absolute;
+}
+.div4{
+    display: flex;
+    flex-direction: row;
+   
+}
+.box1{
+width: 240px;
+height: 400px;
+background-color: rgb(145, 20, 20);
+margin-left: 7rem;
+margin-top: -100px;
+position: relative;
+}
+.box2{
+    float: right;
+    width: 205px;
+height: 400px;
+background-color: rgb(145, 20, 20);
+margin-right: 610px;
+margin-top: -400px;
+position: relative;
+}
+.box3{
+    float: right;
+    width: 205px;
+height: 400px;
+background-color: rgb(145, 20, 20);
+margin-right: 90px;
+margin-top: -400px;
+position: relative;
+}
+.sawir5{
+    width: 90%;
+    height: 100%;
+    margin-top: 10rem;
+}
+.div5{
+    width: 100%;
+    height: 40%;
+    } 
+    .part4{
+        float: left;
+        width: 50%;
+        height: 100%;
+        margin-top: 10rem;
+    }
+    .part5{
+        float: right;
+        width: 45%;
+        height: 100%;
+      margin-right: 1rem;
+    }
+    .para1{
+        font-size: 20px;
+    }
+.div8{
+    width: 100%;
+    height: 30%;
+    background-color: red;
+}
+section{
+    height: 40%;
+    width: 100%;
+    background-image:linear-gradient(rgba(250,0,0,0.75),rgba(250,0,0,0.75)), url(../images/RETAIL06_301209995_AR_-1_0.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 15rem;
+}
+.section1{
+  
+        width: 280px;
+        height: 40px;
+        background-color: rgb(19, 15, 15);
+margin-top: 2rem;
+margin-left: 30rem;
+text-align: center;
+border-radius: 1rem;
+color: white;
+}
+.dhex2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer{
+ width: 100%;
+ height: 30%;
+ background-color: red;
+ display: flex;
+ border-bottom: 0.1px solid rgba(0, 0, 0, alpha);
+}
+.sawir7{
+    height: 50px;
+    height: 50px;
+}
+.footer1{
+    width: 33.33%;
+    height: 90%;
+    margin-left: 3rem;
+    color: white;
+    border-right: 1px solid rgb(100, 90, 90);
+}
+.footer2{
+   
+    width: 33.33%;
+    height: 90%;
+    margin-left: 3rem;
+    color: white;
+    border-right: 1px solid rgb(100, 90, 90);
+    margin-top: 1rem;
+}
+.footer3{
+   
+    width: 33.33%;
+    height: 90%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+   
+}
+.footer4{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(27, 22, 22);
+    text-align: center;
+    color: white;
+}
+.footer5{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(212, 212, 42);
+    text-align: center;
+    color: white;
+}
+.footer6{
+    display: flex;
+}
+.last{
+    width: 100%;
+    height: 10%;
+    background-color: red;
+    display: flex;
+   
+}
+.last1{
+    width: 35%;
+    height:100% ;
+    /* border-right: 1px solid black; */
+    margin-top: 1rem;
+}
+.mustafe{
+    width: 70%;
+    height: 100%;
+}
+.faysal1{
+width: 40px;
+height: 40px;
+margin-top: -1rem;
+margin-right: 5rem;
+}

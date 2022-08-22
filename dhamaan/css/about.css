@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 20%;
+/* display: flex;
+justify-content: space-between; */
+}
+.aabo{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url(../images/pexels-pixabay-164634\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+ul li{
+    display:inline;
+    margin-right: 3rem;
+    list-style-type: none;
+   
+}
+ul li a{
+ text-decoration: none;
+ color: white;
+float: right;
+padding: 2rem;
+}
+ul li a:hover{
+    color: red;
+}
+
+.sawir1{
+    width: 70px;
+    height: 70px;
+    background-color: aliceblue;
+}
+.head{
+    color: white;
+   margin-top: -5rem;
+    font-size: 2.5rem;
+    /* justify-content: center; */
+    text-align: center;  
+    margin-left: 10rem;
+}
+.main{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.box1{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(22, 20, 20);
+margin-left: 2rem;
+border-radius: 1.5rem;
+}
+.box2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(22, 20, 20);
+    border-radius: 1.5rem;
+    }
+    .box3{
+        width: 25%;
+        height: 100%;
+        background-color: rgb(22, 20, 20);
+        margin-right: 2rem;
+        border-radius: 1.5rem;
+        }
+        .sawir1{
+            width: 50px;
+            height: 50px;
+        }
+        .sawir2{
+            width: 70px;
+            height: 70px;
+        }
+        .sawir3{
+            width: 50px;
+            height: 50px;
+        }
+        .sawir4{
+            width: 90px;
+            height: 90px;
+        }
+        .last{
+            margin-top: 2rem;
+margin-left: 6rem;
+            width: 80%;
+            height: 100px;
+            background-color: red;
+            border-radius: 2rem;
+        }
+        .paragraph{
+            color: #fff;
+            margin-left: 1rem;
+            padding-top: 0.5rem;
+        }
+        footer{
+            width: 100%;
+            height: 30%;
+            background-color: red;
+            display: flex;
+            border-bottom: 0.1px solid rgba(0, 0, 0, alpha);
+            /* margin-top: 4rem; */
+           }
+           .sawir7{
+               height: 50px;
+               height: 50px;
+           }
+           .footer1{
+               width: 33.33%;
+               height: 90%;
+               margin-left: 3rem;
+               color: white;
+               border-right: 1px solid rgb(100, 90, 90);
+           }
+           .footer2{
+              
+               width: 33.33%;
+               height: 90%;
+               margin-left: 3rem;
+               color: white;
+               border-right: 1px solid rgb(100, 90, 90);
+               margin-top: 1rem;
+           }
+           .footer3{
+              
+               width: 33.33%;
+               height: 90%;
+               margin-left: 3rem;
+               margin-top: 1rem;
+              
+           }
+           .footer4{
+               width: 180px;
+               height: 50px;
+               background-color: rgb(27, 22, 22);
+               text-align: center;
+               color: white;
+           }
+           .footer5{
+               width: 180px;
+               height: 50px;
+               background-color: rgb(212, 212, 42);
+               text-align: center;
+               color: white;
+           }
+           .footer6{
+               display: flex;
+           }
+           .last{
+               width: 80%;
+               height: 10%;
+               background-color: red;
+               display: flex;
+              /* margin-top: -1rem; */
+           }
+           .last1{
+               width: 35%;
+               height:100% ;
+               /* border-right: 1px solid black; */
+               margin-top: -10rem;
+               color: #fff;
+           }
+           /* .mustafe{
+               width: 70%;
+               height: 100%;
+           }
+           .faysal1{
+           width: 40px;
+           height: 40px;
+           margin-top: 1rem;
+           margin-right: 0.5rem;
+           color: #fff;
+           } */
+           .bits1{
+               width: 2rem;
+               height: 2rem;
+               margin-top: 2rem;
+               padding-top: 1rem;
+            
+           }
+           
+
+           .bits2{
+            width: 3rem;
+            height: 3rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+        }
+        .bits3{
+            width: 3rem;
+            height: 3rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+        }
+        .bits4{
+            width: 2rem;
+            height: 2rem;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+        }
+        .bubbless img{
+           width: 220px;
+           animation: bubbless 7s linear infinite;
+        }
+        .bubbless{
+            width:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: -70;
+        }
+        @keyframes bubbless{
+            0%{
+                transform: translateY(0);
+                opacity: 0;
+            }
+
+            50%{
+                
+                opacity: 1;
+            }
+
+            70%{
+                
+                opacity: 1;
+            }
+
+            100%{
+                transform: translateY(-80vh);
+                opacity: 0;
+            }
+        }
+        .bubbless img:nth-child(1){
+            animation-delay: 2s;
+            width: 100px;
+        }
+
+        .bubbless img:nth-child(2){
+            animation-delay: 1s;
+        }
+
+        .bubbless img:nth-child(3){
+            animation-delay: 3s;
+            width: 150px;
+        }
+
+        .bubbless img:nth-child(4){
+            animation-delay: 4.5s;
+          
+        }
+
+
+        .bubbless img:nth-child(5){
+            animation-delay: 3s;
+            width:50px ;
+        }
+
+        .bubbless img:nth-child(6){
+            animation-delay: 6s;
+            width:70px ;
+        }
+        .bubbless img:nth-child(7){
+            animation-delay: 7s;
+        }
+        
